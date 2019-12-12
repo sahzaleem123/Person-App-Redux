@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 40px;
+  border: 3px solid black;
+  margin: 10px;
+}
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 5px;
+  border: 5px solid;
+}
+.left{
+  overflow: auto;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+button.btn-edit {
+  padding: 10px;
+  margin: 5px;
+  background: blue;
+  border: 1px solid black;
+  color: white;
+  font-size: 18px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+button.btn-del {
+  padding: 10px;
+  margin: 5px;
+  background: red;
+  border: 1px solid black;
+  color: white;
+  font-size: 18px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+.head {
+  text-align: center;
+}
+button.btn-add {
+  padding: 10px;
+  border: 2px solid black;
+  background: gray;
+  color: white;
+  cursor: pointer;
+}
+.name{
+  max-width: 300px;
+}
+.work{
+  max-width: 300px;
+}
